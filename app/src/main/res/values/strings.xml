@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Volume Hitung Kubus</string>
+        <string name="hint_sisi">Masukkan panjang sisi kubus</string>
+        <string name="btn_hitung_volume">Hitung Volume</string>
+        <string name="btn_hitung_luas">Hitung Luas Permukaan</string>
+        <string name="hasil_default">Hasil akan muncul di sini</string>
+        <string name="error_invalid_input">Masukkan panjang sisi yang valid!</string>
+        <string name="volume_kubus">Volume Kubus: %1$s</string>
+        <string name="luas_kubus">Luas Permukaan Kubus: %1$s</string>
+
+</resources>

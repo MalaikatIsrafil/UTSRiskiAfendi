@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText untuk input sisi kubus -->
+    <EditText
+        android:id="@+id/etSisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_sisi"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:minHeight="48dp"
+        android:autofillHints="phone" /> <!-- Autofill hint, sesuaikan dengan jenis input -->
+
+    <!-- Tombol untuk menghitung volume kubus -->
+    <Button
+        android:id="@+id/btnHitungVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_hitung_volume"
+        android:minHeight="48dp" />
+
+    <!-- Tombol untuk menghitung luas permukaan kubus -->
+    <Button
+        android:id="@+id/btnHitungLuas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_hitung_luas"
+        android:minHeight="48dp" />
+
+    <!-- TextView untuk menampilkan hasil -->
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil_default"
+        android:paddingTop="16dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
